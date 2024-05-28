@@ -16,34 +16,34 @@ class ProjectUtils {
 List<ProjectUtils> projectUtils = [
   ProjectUtils(
     banners: 'assets/imgs/02.png',
-    icons: 'assets/imgs/flutter.png',
-    titles: 'Awesome Social Media App',
+    icons: 'assets/project/icons/cloudy.png',
+    titles: 'Weather App',
     description:
-        'This is a just Fully functional Social media App by using flutter, source code is also available, check below.',
-    links: 'https://github.com/sudeshnb/poetically-.git',
+        'This is a fully functional weather app built with Flutter. The source code is available; check below for details',
+    links: 'https://github.com/abhay-hari/weather_app_trial.git',
   ),
   ProjectUtils(
-    banners: 'assets/imgs/1.png',
-    icons: 'assets/imgs/flutter.png',
-    titles: 'Awesome CRM UI',
+    banners: 'assets/imgs/01.png',
+    icons: 'assets/project/icons/animate.png',
+    titles: 'Awesome Login Animation',
     description:
-        'This is a just CRM UI Design using Figma, file is also available, check below.',
-    links: 'https://github.com/sudeshnb/',
+        'User-friendly login screen for Flutter applications, enhanced with dynamic animations from the Rive package. The source code is available; check below for details.',
+    links: 'https://github.com/abhay-hari/Login-Animation-with-Flutter.git',
   ),
   ProjectUtils(
     banners: 'assets/imgs/03.png',
-    icons: 'assets/imgs/flutter.png',
-    titles: 'Exercise App',
+    icons: 'assets/project/icons/shopping-cart.png',
+    titles: 'E-commerce app',
     description:
-        'This is a just Fully function Exercise App by using flutter, source code is also available, check below.',
-    links: 'https://github.com/sudeshnb/elderly_exercise_app.git',
+        'This is an e-commerce app for bag selling, built using Flutter. The source code is also available; check below for details',
+    links: 'https://github.com/abhay-hari/abhay_mvvm_p1.git',
   ),
   ProjectUtils(
     banners: 'assets/imgs/04.png',
-    icons: 'assets/imgs/flutter.png',
-    titles: 'Awesome Plant App UI',
+    icons: 'assets/project/icons/start-up.png',
+    titles: 'Greenery',
     description:
         'This is a just Plant App UI by using flutter, source code is also available, check below.',
-    links: 'https://github.com/sudeshnb/flutter_plant_app.git',
+    links: 'https://github.com/abhay-hari/greenery_application.git',
   ),
 ];

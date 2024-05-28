@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:mysite/app/utils/project_utils.dart';
-import 'package:mysite/app/widgets/custom_text_heading.dart';
-import 'package:mysite/changes/links.dart';
-import 'package:mysite/changes/strings.dart';
-import 'package:mysite/core/configs/configs.dart';
-import 'package:mysite/core/util/constants.dart';
+import 'package:abhay_portfolio/app/utils/project_utils.dart';
+import 'package:abhay_portfolio/app/widgets/custom_text_heading.dart';
+import 'package:abhay_portfolio/changes/links.dart';
+import 'package:abhay_portfolio/changes/strings.dart';
+import 'package:abhay_portfolio/core/configs/configs.dart';
+import 'package:abhay_portfolio/core/util/constants.dart';
 import 'package:sizer/sizer.dart';
 
 import 'widgets/project_card.dart';
 
 class PortfolioDesktop extends StatefulWidget {
-  const PortfolioDesktop({Key? key}) : super(key: key);
+  const PortfolioDesktop({super.key});
 
   @override
   State<PortfolioDesktop> createState() => _PortfolioDesktopState();

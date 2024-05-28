@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:mysite/app/widgets/custom_outline.dart';
-import 'package:mysite/core/theme/app_theme.dart';
+import 'package:abhay_portfolio/app/widgets/custom_outline.dart';
+import 'package:abhay_portfolio/core/theme/app_theme.dart';
 
 class ZoomAnimations extends StatefulWidget {
-  const ZoomAnimations({Key? key}) : super(key: key);
+  const ZoomAnimations({super.key});
 
   @override
   State<ZoomAnimations> createState() => _ZoomAnimationsState();
@@ -92,7 +92,7 @@ class _ZoomAnimationsState extends State<ZoomAnimations>
               image: const DecorationImage(
                 fit: BoxFit.cover,
                 alignment: Alignment.bottomLeft,
-                image: AssetImage('assets/imgs/IMG_0107.png'),
+                image: AssetImage('assets/imgs/IMG_0107.jpg'),
               ),
             ),
           ),

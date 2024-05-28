@@ -1,38 +1,26 @@
 // CV
 const String resume =
-    'https://drive.google.com/file/d/1bDNNrkQtNVJbXcdwMSx0crQQvAF_nMwV/view?usp=sharing';
-
+    "https://drive.google.com/drive/folders/1GTN-_pp93GjH6ICwmIS4MlhS7PfLuW4s?usp=sharing";
 // Github Link
-const String gitHub = 'https://github.com/sudeshnb';
+const String gitHub = 'https://github.com/abhay-hari';
 // Github Link
-const String facebook = 'https://facebook.com/sudeshnb';
+const String facebook = 'https://facebook.com';
 // Github Link
-const String twitter = 'https://twitter.com/sudesh78';
+const String twitter = 'https://twitter.com';
 // Github Link
-const String youtube =
-    'https://www.youtube.com/channel/UCXooUY2oL_eqGhTaZn-ExSg';
+const String youtube = 'https://www.youtube.com';
 // Github Link
-const String linkedin = 'https://linkedin.com/in/sudeshnb';
+const String linkedin = 'https://linkedin.com/in/abhay-dev';
 // Github Link
 const String buymeacoffee = 'https://www.buymeacoffee.com/sudeshnb';
 // Github Link
 const String instagram = 'https://instagram.com/sudesh_nish';
-// socialLinks
-// const List<String> socialLinks = [
-//   "https://facebook.com/sudeshnb",
-//   // "https://instagram.com/sudesh_nish",
-//   "https://www.youtube.com/channel/UCXooUY2oL_eqGhTaZn-ExSg",
-//   "https://twitter.com/sudesh78",
-//   "https://linkedin.com/in/sudeshnb",
-//   "https://www.buymeacoffee.com/sudeshnb", "https://github.com/sudeshnb",
-// ];
-//
+
+const String email = 'abhayhari17@gmail.com';
+
+const String phone = '+91 9539393038';
+
 const String profileImage =
-    "https://images.unsplash.com/photo-1503443207922-dff7d543fd0e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80";
-//
-// Github Link
-const String fiverr = 'https://www.fiverr.com/sudeshnb';
-// Github Link
-const String upwork = 'https://www.upwork.com/freelancers/~015c46144016569e31';
-// Github Link
-const String whatsapp = 'https://api.whatsapp.com/send?phone=94741325674';
+    "https://media.licdn.com/dms/image/D5603AQFmBm9rjcxTTw/profile-displayphoto-shrink_200_200/0/1672998223929?e=2147483647&v=beta&t=zLIPApRtt7UPbVDJ6Cqc0BDREx2ZiimxEC2604pOrbM";
+
+const String whatsapp = 'https://api.whatsapp.com/send?phone=9539393038';

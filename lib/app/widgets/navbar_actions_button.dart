@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:mysite/core/animations/entrance_fader.dart';
-import 'package:mysite/core/color/colors.dart';
-import 'package:mysite/core/configs/configs.dart';
-import 'package:mysite/core/providers/scroll_provider.dart';
+import 'package:abhay_portfolio/core/animations/entrance_fader.dart';
+import 'package:abhay_portfolio/core/color/colors.dart';
+import 'package:abhay_portfolio/core/configs/configs.dart';
+import 'package:abhay_portfolio/core/providers/scroll_provider.dart';
 import 'package:provider/provider.dart';
 
 class NavBarActionButton extends StatefulWidget {
   final String label;
   final int index;
   const NavBarActionButton({
-    Key? key,
+    super.key,
     required this.label,
     required this.index,
-  }) : super(key: key);
+  });
 
   @override
   State<NavBarActionButton> createState() => _NavBarActionButtonState();

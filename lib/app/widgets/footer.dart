@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:mysite/changes/links.dart';
-import 'package:mysite/core/util/constants.dart';
+import 'package:abhay_portfolio/core/util/constants.dart';
 
 class Footer extends StatelessWidget {
-  const Footer({Key? key}) : super(key: key);
+  const Footer({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -17,15 +16,16 @@ class Footer extends StatelessWidget {
         child: Row(
           mainAxisSize: MainAxisSize.min,
           children: [
-            const Text("Developed by "),
+            const Text("Abhay Dev 💜"),
+            const Text("mail : "),
             InkWell(
-              onTap: () => openURL(gitHub),
+              onTap: () => launchMail("abhayhari17@gmail.com"),
               child: const Text(
-                " Sudesh Bandara 💙",
+                " abhayhari17@gmail.com",
                 style: TextStyle(fontWeight: FontWeight.bold),
               ),
             ),
-            const Text(" © 2022"),
+            const Text(" 🖤 "),
           ],
         ),
       ),

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:mysite/core/configs/configs.dart';
-import 'package:mysite/core/res/responsive.dart';
+import 'package:abhay_portfolio/core/configs/configs.dart';
+import 'package:abhay_portfolio/core/res/responsive.dart';
 
 class NavBarLogo extends StatelessWidget {
-  const NavBarLogo({Key? key}) : super(key: key);
+  const NavBarLogo({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -19,10 +19,10 @@ class NavBarLogo extends StatelessWidget {
     return Row(
       mainAxisSize: MainAxisSize.min,
       children: [
-        Text("< ", style: textSty),
-        Text("Sudesh", style: textSty),
+        Text(" ", style: textSty),
+        Text("Abhay", style: textSty),
         Text(
-          Responsive.isDesktop(context) ? " />\t\t" : " />",
+          Responsive.isDesktop(context) ? " \t\t" : " />",
           style: textSty,
         )
       ],

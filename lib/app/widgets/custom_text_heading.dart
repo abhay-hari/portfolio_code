@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:mysite/core/configs/configs.dart';
-import 'package:mysite/core/res/responsive.dart';
+import 'package:abhay_portfolio/core/configs/configs.dart';
+import 'package:abhay_portfolio/core/res/responsive.dart';
 
 class CustomSectionHeading extends StatelessWidget {
   final String text;
 
-  const CustomSectionHeading({Key? key, required this.text}) : super(key: key);
+  const CustomSectionHeading({super.key, required this.text});
 
   @override
   Widget build(BuildContext context) {
@@ -29,8 +29,7 @@ class CustomSectionHeading extends StatelessWidget {
 class CustomSectionSubHeading extends StatelessWidget {
   final String text;
 
-  const CustomSectionSubHeading({Key? key, required this.text})
-      : super(key: key);
+  const CustomSectionSubHeading({super.key, required this.text});
 
   @override
   Widget build(BuildContext context) {

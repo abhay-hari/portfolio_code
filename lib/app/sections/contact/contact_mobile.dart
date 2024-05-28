@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:mysite/app/utils/contact_utils.dart';
-import 'package:mysite/app/widgets/custom_text_heading.dart';
-import 'package:mysite/changes/links.dart';
-import 'package:mysite/changes/strings.dart';
-import 'package:mysite/core/color/colors.dart';
-import 'package:mysite/core/configs/configs.dart';
-import 'package:mysite/core/util/constants.dart';
+import 'package:abhay_portfolio/app/utils/contact_utils.dart';
+import 'package:abhay_portfolio/app/widgets/custom_text_heading.dart';
+import 'package:abhay_portfolio/changes/links.dart';
+import 'package:abhay_portfolio/changes/strings.dart';
+import 'package:abhay_portfolio/core/color/colors.dart';
+import 'package:abhay_portfolio/core/configs/configs.dart';
+import 'package:abhay_portfolio/core/util/constants.dart';
 import 'package:sizer/sizer.dart';
 
 class ContactMobileTab extends StatelessWidget {
-  const ContactMobileTab({Key? key}) : super(key: key);
+  const ContactMobileTab({super.key});
 
   @override
   Widget build(BuildContext context) {

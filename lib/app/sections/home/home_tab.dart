@@ -1,19 +1,19 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
-import 'package:mysite/app/sections/home/widgets/animation_text.dart';
-import 'package:mysite/app/widgets/color_chage_btn.dart';
-import 'package:mysite/changes/img.dart';
-import 'package:mysite/changes/links.dart';
-import 'package:mysite/changes/strings.dart';
-import 'package:mysite/core/animations/entrance_fader.dart';
-import 'package:mysite/core/animations/zoom_animation.dart';
-import 'package:mysite/core/configs/configs.dart';
-import 'package:mysite/core/res/responsive_size.dart';
+import 'package:abhay_portfolio/app/sections/home/widgets/animation_text.dart';
+import 'package:abhay_portfolio/app/widgets/color_chage_btn.dart';
+import 'package:abhay_portfolio/changes/img.dart';
+import 'package:abhay_portfolio/changes/links.dart';
+import 'package:abhay_portfolio/changes/strings.dart';
+import 'package:abhay_portfolio/core/animations/entrance_fader.dart';
+import 'package:abhay_portfolio/core/animations/zoom_animation.dart';
+import 'package:abhay_portfolio/core/configs/configs.dart';
+import 'package:abhay_portfolio/core/res/responsive_size.dart';
 import 'package:sizer/sizer.dart';
 import 'package:universal_html/html.dart' as html;
 
 class HomeTab extends StatelessWidget {
-  const HomeTab({Key? key}) : super(key: key);
+  const HomeTab({super.key});
 
   @override
   Widget build(BuildContext context) {

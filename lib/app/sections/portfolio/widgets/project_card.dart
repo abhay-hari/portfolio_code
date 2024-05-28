@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:mysite/app/utils/project_utils.dart';
-import 'package:mysite/core/color/colors.dart';
-import 'package:mysite/core/configs/configs.dart';
-import 'package:mysite/core/res/responsive.dart';
-import 'package:mysite/core/util/constants.dart';
+import 'package:abhay_portfolio/app/utils/project_utils.dart';
+import 'package:abhay_portfolio/core/color/colors.dart';
+import 'package:abhay_portfolio/core/configs/configs.dart';
+import 'package:abhay_portfolio/core/res/responsive.dart';
+import 'package:abhay_portfolio/core/util/constants.dart';
 import 'package:sizer/sizer.dart';
 
 class ProjectCard extends StatefulWidget {
   final ProjectUtils project;
 
-  const ProjectCard({Key? key, required this.project}) : super(key: key);
+  const ProjectCard({super.key, required this.project});
   @override
   ProjectCardState createState() => ProjectCardState();
 }
